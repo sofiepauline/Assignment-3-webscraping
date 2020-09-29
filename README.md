@@ -1,4 +1,4 @@
-# Assignment-3-webscraping
+# Assignments
 
 
 Create a long data frame by scraping the names of all DataCamps courses in R & Python:
