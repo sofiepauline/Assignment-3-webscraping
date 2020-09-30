@@ -18,11 +18,6 @@ x<-html_table(html_nodes(webpag, "div table")[1:14])
 ##making variables of the list 
 timeplan <- as.data.frame(matrix(unlist(x), nrow =14, byrow=T),stringsAsFactors=FALSE)
 
-timeplan %>% 
-  rownames_to_column() %>% 
-  gather(variable, value, -rowname) %>% 
-  spread(rowname, value) %>%
-  
   
   
   view(timeplan)
